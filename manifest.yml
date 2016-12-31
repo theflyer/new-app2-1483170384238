@@ -1,0 +1,10 @@
+applications:
+- path: output/webApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: new app2
+  host: new-app2
+  disk_quota: 1024M
+  services:
+  - new app2-personality_insights
